@@ -1,0 +1,25 @@
+{
+  "name": "forexmm-cli",
+  "version": "1.0.0",
+  "description": "Get Burma Exchange Rate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "forexmm": "./index.js"
+  },
+  "keywords": [
+    "Myanmar Exchange Rate"
+  ],
+  "author": "Aung Myo Kyaw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AungMyoKyaw/forexmm-cli"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "forexmm": "^1.0.3"
+  }
+}
