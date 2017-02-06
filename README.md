@@ -6,7 +6,7 @@ npm install -g forexmm-cli
 
 ## Get Exchange Rate
 ```
-forexmm-cli
+forexmm
 ```
 
 ### Result
