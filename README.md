@@ -9,16 +9,25 @@ npm install -g forexmm-cli
 forexmm
 ```
 
+## Currency Converter
+```
+forexmm number
+```
+### Example
+```
+forexmm 1000
+```
+
 ### Result
 ```
-*  United State Dollar  USD : 1
-*  Euro                 EUR : 1
-*  Singapore Dollar     SGD : 1
-*  Pound Sterling       GBP : 1
-*  Swiss Franc          CHF : 1
-*  Japanese Yen         JPY : 1
-*  Australian Dollar    AUD : 1
-*  Bangladesh Taka      BDT : 1
-*  Brazilian Real       BRL : 1
-*  Brunei Dollar        BND : 1
+*  United State Dollar  1000 USD : 1000
+*  Euro                 1000 EUR : 1000
+*  Singapore Dollar     1000 SGD : 1000
+*  Pound Sterling       1000 GBP : 1000
+*  Swiss Franc          1000 CHF : 1000
+*  Japanese Yen         1000 JPY : 1000
+*  Australian Dollar    1000 AUD : 1000
+*  Bangladesh Taka      1000 BDT : 1000
+*  Brazilian Real       1000 BRL : 1000
+*  Brunei Dollar        1000 BND : 1000
 ```

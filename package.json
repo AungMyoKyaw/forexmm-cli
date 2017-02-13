@@ -20,6 +20,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "forexmm": "^1.0.3"
+    "forexmm": "^2.0.0"
   }
 }
