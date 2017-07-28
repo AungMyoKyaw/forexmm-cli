@@ -6,26 +6,26 @@
 [![contributions welcome][contri]][contri-url]
 
 ## Installation
-```
+```shell
 npm install -g forexmm-cli
 ```
 
 ## Get Exchange Rate
-```
+```shell
 forexmm
 ```
 
 ## Currency Converter
-```
+```shell
 forexmm number
 ```
 ### Example
-```
+```shell
 forexmm 1000
 ```
 
 ### Result
-```
+```shell
 *  United State Dollar  1000 USD : 1000
 *  Euro                 1000 EUR : 1000
 *  Singapore Dollar     1000 SGD : 1000
