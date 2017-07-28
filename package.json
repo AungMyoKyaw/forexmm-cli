@@ -3,10 +3,6 @@
   "version": "1.1.1",
   "description": "Get Burma Exchange Rate",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "forexmm": "./index.js"
   },
@@ -18,8 +14,8 @@
     "type": "git",
     "url": "https://github.com/AungMyoKyaw/forexmm-cli"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "forexmm": "^2.0.0"
+    "forexmm": "^2.1.0"
   }
 }
