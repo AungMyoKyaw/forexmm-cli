@@ -46,9 +46,13 @@ forexmm 1000
 *  Brunei Dollar        1000 BND : 1000
 ```
 
-## License
+## Related
 
-[MIT](./LICENSE)
+- [forexmm](https://github.com/AungMyoKyaw/forexmm)
+
+## LICENSE
+
+MIT © [Aung Myo Kyaw](https://github.com/AungMyoKyaw)
 
 [contri]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square
 [contri-url]: https://github.com/AungMyoKyaw/forexmm-cli/issues
