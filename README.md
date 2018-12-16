@@ -1,30 +1,38 @@
 # forexmm-cli
+
 > Get Myanmar Exchange Rate in terminal
 
+[![code style: prettier][prettier]][prettier-url]
 [![npm][npm-download]][npm-dl-url]
-[![NSP Status][nsp]][nsp-url]
 [![contributions welcome][contri]][contri-url]
+[![License: MIT][license]][license-url]
 
 ## Installation
+
 ```shell
 npm install -g forexmm-cli
 ```
 
 ## Get Exchange Rate
+
 ```shell
 forexmm
 ```
 
 ## Currency Converter
+
 ```shell
 forexmm number
 ```
+
 ### Example
+
 ```shell
 forexmm 1000
 ```
 
 ### Result
+
 ```shell
 *  United State Dollar  1000 USD : 1000
 *  Euro                 1000 EUR : 1000
@@ -39,11 +47,14 @@ forexmm 1000
 ```
 
 ## License
+
 [MIT](./LICENSE)
 
-[npm-download]: https://img.shields.io/npm/dt/forexmm-cli.svg
-[npm-dl-url]: https://www.npmjs.com/package/forexmm-cli
-[contri]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
+[contri]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square
 [contri-url]: https://github.com/AungMyoKyaw/forexmm-cli/issues
-[nsp]: https://nodesecurity.io/orgs/aung-myo-kyaw/projects/d32955f2-7d4e-43a0-bf4e-09e89a448b13/badge
-[nsp-url]: https://nodesecurity.io/orgs/aung-myo-kyaw/projects/d32955f2-7d4e-43a0-bf4e-09e89a448b13
+[npm-download]: https://img.shields.io/npm/dt/forexmm-cli.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/forexmm-cli
+[license]: https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square
+[license-url]: https://opensource.org/licenses/MIT
+[prettier]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+[prettier-url]: https://github.com/prettier/prettier
