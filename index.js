@@ -7,7 +7,7 @@ var toMyanmarKyat = process.argv[2] || 1;
 var toMyanmarKyatLocal = Number(toMyanmarKyat).toLocaleString();
 toMyanmarKyat = Number((toMyanmarKyat + '').replace(/,/g, ''));
 
-latest
+latest()
   .then(data => {
     var latest = data.rates;
     var dataKey = [
