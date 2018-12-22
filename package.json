@@ -2,9 +2,12 @@
   "name": "forexmm-cli",
   "version": "1.2.2",
   "description": "Get Burma Exchange Rate",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "script": {
+    "build": "tsc"
+  },
   "bin": {
-    "forexmm": "./index.js"
+    "forexmm": "./dist/index.js"
   },
   "keywords": [
     "Myanmar Exchange Rate"
@@ -17,5 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "forexmm": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
   }
 }
