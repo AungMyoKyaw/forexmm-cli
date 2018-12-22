@@ -7,8 +7,13 @@ import { dataKey, currencies } from './const';
 const { latest } = forexmm;
 
 let toMyanmarKyat: string | number = process.argv[2] || 1;
-const toMyanmarKyatLocal: string = Number(toMyanmarKyat).toLocaleString();
-toMyanmarKyat = Number((toMyanmarKyat + '').replace(/,/g, ''));
+let toMyanmarKyatLocal: string = Number(toMyanmarKyat).toLocaleString('en-US');
+toMyanmarKyat = +toMyanmarKyat;
+
+if (isNaN(toMyanmarKyat)) {
+  toMyanmarKyatLocal = '1';
+  toMyanmarKyat = 1;
+}
 
 (async function() {
   try {

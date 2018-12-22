@@ -1,34 +1,30 @@
 # forexmm-cli
 
-> Get Myanmar Exchange Rate in terminal
+> Myanmar Exchange Rate in TERMINAL
 
 [![code style: prettier][prettier]][prettier-url]
 [![npm][npm-download]][npm-dl-url]
 [![contributions welcome][contri]][contri-url]
 [![License: MIT][license]][license-url]
 
-## Installation
+---
+
+## Exchange_Rate
 
 ```shell
-npm install -g forexmm-cli
+npx forexmm-cli
 ```
 
-## Get Exchange Rate
+## Currency_Converter
 
 ```shell
-forexmm
-```
-
-## Currency Converter
-
-```shell
-forexmm number
+npx forexmm-cli number
 ```
 
 ### Example
 
 ```shell
-forexmm 1000
+npx forexmm-cli 1000
 ```
 
 ### Result

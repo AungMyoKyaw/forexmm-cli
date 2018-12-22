@@ -1,6 +1,6 @@
 {
   "name": "forexmm-cli",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Get Burma Exchange Rate",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "forexmm": "./dist/index.js"
   },
   "keywords": [
-    "Myanmar Exchange Rate"
+    "Myanmar Exchange Rate",
+    "Exchange Rate",
+    "Myanmar"
   ],
   "author": "Aung Myo Kyaw",
   "repository": {
