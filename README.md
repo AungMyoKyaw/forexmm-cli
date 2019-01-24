@@ -7,27 +7,33 @@
 [![contributions welcome][contri]][contri-url]
 [![License: MIT][license]][license-url]
 
----
+[![asciicast](https://asciinema.org/a/223235.svg)](https://asciinema.org/a/223235)
 
-## Exchange_Rate
+## Install
+
+```shell
+npm install forexmm-cli
+```
+
+### Exchange Rate
 
 ```shell
 npx forexmm-cli
 ```
 
-## Currency_Converter
+### Currency Converter
 
 ```shell
 npx forexmm-cli number
 ```
 
-### Example
+#### Example
 
 ```shell
 npx forexmm-cli 1000
 ```
 
-### Result
+#### Result
 
 ```shell
 *  United State Dollar  1000 USD : 1000
