@@ -7,8 +7,6 @@
 [![contributions welcome][contri]][contri-url]
 [![License: MIT][license]][license-url]
 
-[![asciicast](https://asciinema.org/a/223235.svg)](https://asciinema.org/a/223235)
-
 ## Install
 
 ```shell
@@ -47,6 +45,10 @@ npx forexmm-cli 1000
 *  Brazilian Real       1000 BRL : 1000
 *  Brunei Dollar        1000 BND : 1000
 ```
+
+### asciinema ▶️
+
+[![asciicast](https://asciinema.org/a/223235.svg)](https://asciinema.org/a/223235)
 
 ## Related
 
